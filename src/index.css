@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&family=Lexend:wght@100..900&display=swap");
+
+:root {
+    --font-title: Lexend, "sans-serif";
+    --font-text: Hepta Slab, "sans-serif";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-title);
+}
