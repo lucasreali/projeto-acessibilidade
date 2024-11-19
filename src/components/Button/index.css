@@ -1,0 +1,17 @@
+.btn {
+    position: static;
+    font-size: 2rem;
+    color: var(--dark-green);
+    background-color: var(--white);
+    border: 1px solid var(--dark-green);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 200ms ease-in-out;
+
+    &:hover {
+        background-color: var(--dark-green);
+        color: var(--white);
+    }
+}

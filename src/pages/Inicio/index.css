@@ -1,0 +1,86 @@
+main {
+    .init {
+        scroll-behavior: smooth;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &.init {
+            /* background-image: url('./normal/bg.svg'); */
+            background-size: cover;
+
+            img {
+                height: 600px;
+                float: right;
+            }
+
+            * {
+                color: var(--dark-green);
+            }
+        }
+
+        .info-hub {
+            float: left;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            width: 900px;
+
+            h1 {
+                font-size: 4rem;
+            }
+
+            h2 {
+                font-size: 3rem;
+            }
+
+            ol {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            p,
+            li {
+                text-align: justify;
+                font-size: 2.4rem;
+            }
+        }
+    }
+
+    .start-here {
+        height: calc(100vh + 100px);
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .card {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+            gap: 20px;
+
+            img {
+                height: 100%;
+                width: 100%;
+                float: left;
+            }
+
+            .card-wrapper {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                h2 {
+                    font-size: 3rem;
+                }
+
+                p {
+                    font-size: 2rem;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}
